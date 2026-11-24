@@ -1,0 +1,23 @@
+name = "erdos-problem-30-attempt"
+version = "0.1.0"
+keywords = ["math", "erdos", "sidon-sets"]
+defaultTargets = ["Formalization"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+autoImplicit = false
+maxSynthPendingDepth = 3
+# Proof-maintenance linters only (not the whole Mathlib standard set).
+weak.linter.style.multiGoal = true
+weak.linter.style.show = true
+weak.linter.style.setOption = true
+weak.linter.style.maxHeartbeats = true
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+[[lean_lib]]
+name = "Formalization"

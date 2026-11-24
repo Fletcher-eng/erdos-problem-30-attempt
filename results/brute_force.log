@@ -1,0 +1,9 @@
+k=3: G=3  optimal rulers (up to reflection)=1  nodes=3  0.0s
+k=4: G=6  optimal rulers (up to reflection)=1  nodes=24  0.0s
+k=5: G=11  optimal rulers (up to reflection)=2  nodes=246  0.0s
+k=6: G=17  optimal rulers (up to reflection)=4  nodes=2,039  0.0s
+k=7: G=25  optimal rulers (up to reflection)=5  nodes=21,382  0.0s
+k=8: G=34  optimal rulers (up to reflection)=1  nodes=201,508  0.4s
+k=9: G=44  optimal rulers (up to reflection)=1  nodes=1,790,223  5.4s
+k=10: G=55  optimal rulers (up to reflection)=1  nodes=15,283,844  59.2s
+k=11: deadline, lengths < 68 ruled out

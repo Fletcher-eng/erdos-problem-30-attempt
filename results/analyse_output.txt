@@ -1,0 +1,61 @@
+own search covers k <= 13, exact h(N) for N <= 115
+reference A003022: k = 2..28 (27 terms), h exact for N <= 586
+mismatches: [] | h(A003022) vs A143824: [] | h(own) vs A143824: []
+determinism controls: {"ogr_results_control_serial_k11.json": {"k_compared": [4, 11], "workers": 14, "differences": []}, "ogr_results_control_parallel_k12.json": {"k_compared": [4, 12], "workers": 14, "differences": []}}
+brute force check: {"k_checked": [1, 10], "G_mismatches": [], "optimal_ruler_count_mismatches": [], "counts_compared_for_k": [4, 5, 6, 7, 8, 9, 10], "brute_force_partial": {"k": 11, "no_ruler_shorter_than": 68, "consistent_with_own_G": true}}
+
+stats_own N covered by own exhaustive search [1, 115]
+   max_h_minus_sqrt {'value': 2.726381504504296, 'N': 86, 'h': 12}
+   min_h_minus_sqrt {'value': 0.0, 'N': 1, 'h': 1}
+   min_h_minus_sqrt_N_ge_2 {'value': 0.2679491924311228, 'N': 3, 'h': 2}
+   max_ratio {'value': 0.9199874288103627, 'N': 56, 'h': 10}
+   min_ratio {'value': 0.0, 'N': 1, 'h': 1}
+   min_lindstrom_margin {'value': 1.2188795732826438, 'N': 56, 'h': 10}
+   min_counting_margin {'value': 0, 'N': 1, 'h': 1}
+   min_lindstrom_margin_relative_to_allowed_excess {'value': 0.32603086208784887, 'N': 86, 'h': 12}
+   lindstrom_holds_all True counting_holds_all True counting equality at N = [1, 2, 4, 7]
+
+stats_ref N beyond own search, from the published A003022 table (unverified by me) [116, 586]
+   max_h_minus_sqrt {'value': 3.7963966888254816, 'N': 493, 'h': 26}
+   min_h_minus_sqrt {'value': 1.6958653043499297, 'N': 177, 'h': 15}
+   min_h_minus_sqrt_N_ge_2 {'value': 1.6958653043499297, 'N': 177, 'h': 15}
+   max_ratio {'value': 0.851747040878493, 'N': 217, 'h': 18}
+   min_ratio {'value': 0.4100640985776463, 'N': 333, 'h': 20}
+   min_lindstrom_margin {'value': 1.5690079104550634, 'N': 217, 'h': 18}
+   min_counting_margin {'value': 72, 'N': 128, 'h': 14}
+   min_lindstrom_margin_relative_to_allowed_excess {'value': 0.3165873739966162, 'N': 373, 'h': 23}
+   lindstrom_holds_all True counting_holds_all True counting equality at N = []
+
+stats_all all N = 1..N_ref_max [1, 586]
+   max_h_minus_sqrt {'value': 3.7963966888254816, 'N': 493, 'h': 26}
+   min_h_minus_sqrt {'value': 0.0, 'N': 1, 'h': 1}
+   min_h_minus_sqrt_N_ge_2 {'value': 0.2679491924311228, 'N': 3, 'h': 2}
+   max_ratio {'value': 0.9199874288103627, 'N': 56, 'h': 10}
+   min_ratio {'value': 0.0, 'N': 1, 'h': 1}
+   min_lindstrom_margin {'value': 1.2188795732826438, 'N': 56, 'h': 10}
+   min_counting_margin {'value': 0, 'N': 1, 'h': 1}
+   min_lindstrom_margin_relative_to_allowed_excess {'value': 0.3165873739966162, 'N': 373, 'h': 23}
+   lindstrom_holds_all True counting_holds_all True counting equality at N = [1, 2, 4, 7]
+
+fits of peak excess (k>=5): {
+"k": {
+"a": 1.469005561218494,
+"b": 0.08141406934839536,
+"sse": 1.1794930699466002
+},
+"sqrt_k": {
+"a": 0.2948866121751803,
+"b": 0.6354913562178409,
+"sse": 0.9791130560561814
+},
+"log_k": {
+"a": -0.33520397672746416,
+"b": 1.1673470617416009,
+"sse": 0.9397653444475454
+},
+"constant": {
+"a": 2.8123377054670176,
+"b": 0.0,
+"sse": 8.801981360991727
+}
+}
