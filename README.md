@@ -142,7 +142,8 @@ they must list only `propext`, `Classical.choice` and `Quot.sound`.
 Result on 24 November 2026, Lean 4.33.1 with Mathlib `v4.33.1`, on the author's machine:
 `lake build --wfail` exits with code 0, there are no warnings, the files contain no `sorry`,
 `admit` or `native_decide`, and each `#print axioms` line lists only those three axioms. The
-GitHub job has not been looked at yet, so the first CI run on the hosted runner is unchecked.
+first run of the GitHub job (`lean-action` with `--wfail`, on a hosted Ubuntu runner using the
+Mathlib cache) also finished with success.
 
 ## Licence
 

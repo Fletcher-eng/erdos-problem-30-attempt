@@ -199,3 +199,5 @@ open statements the problem splits into.
   repository only.
 - The scratch Lean files and the subagents' notes were moved out of the repository into the
   author's working folder and are not published.
+- **L, about 17:50** The repository was created as public and the first commit pushed. The GitHub
+  job (`lean-action` with `--wfail`, hosted Ubuntu runner, Mathlib cache) finished with success.
