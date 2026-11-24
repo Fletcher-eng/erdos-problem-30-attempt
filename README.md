@@ -147,6 +147,6 @@ Mathlib cache) also finished with success.
 
 ## Licence
 
-No licence file has been added yet. `Formalization/Problem.lean` restates definitions from
-`google-deepmind/formal-conjectures`, which is licensed under Apache-2.0, so Apache-2.0 is the
-natural choice for this repository.
+This repository is licensed under the Apache License 2.0. The full text is in `LICENSE`.
+`Formalization/Problem.lean` restates definitions from `google-deepmind/formal-conjectures`, which
+is also licensed under Apache-2.0.

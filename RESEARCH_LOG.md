@@ -201,3 +201,5 @@ open statements the problem splits into.
   author's working folder and are not published.
 - **L, about 17:50** The repository was created as public and the first commit pushed. The GitHub
   job (`lean-action` with `--wfail`, hosted Ubuntu runner, Mathlib cache) finished with success.
+- **After publishing** At the owner's request the Apache License 2.0 was added as `LICENSE` (the
+  standard text, 11,358 bytes, from GitHub's licence API) and the README licence section was updated.
